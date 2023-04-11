@@ -29,13 +29,21 @@ If we didn't have the data, then we would have to get it from the logs of the sh
 Below I'll plot a few of the visualizations created during the data exploration process.
 
 The first is a pairplot, which allows for a quick comparison between all of the numerical features. This also gives a quick histogram for each feature along the diagonal.
+
 ![Correlation Matrix](Visualizations/correlation_matrix.png)
 
+
 The Age, SibSp, Parch, and Fare histograms were all a little right skewed, with the latter three possibly having outliers. I decided to look at these distributions more closely. 
+
 ![Distributions](Visualizations/distributions.png)
 
+
 Boxplots were also explored, particularly because they are great at showing outliers. In this case a categorical feature, Embarked, was able to be plotted by comparing it to a numerical feature, Fare. 
+
 ![Boxplot Embarked](Visualizations/boxplot_embarked.png)
 
+
 The final plot I'll show here is a jointplot between Age and Fare. It's a great way to compare two numerical features and look for possible trends or outliers. 
+
 ![Jointplot Age vs Fare](Visualizations/jointplot_age_fare.png)
+
