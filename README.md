@@ -23,3 +23,15 @@ The goal of this specific project is to accurately predict which passengers surv
 In this example we already have all of the data and it's a small dataset that is stored in a CSV file. So all we have to do is get the path to that file and load it up. 
 
 If we didn't have the data, then we would have to get it from the logs of the ship, recorded survivors, or other researchers working on the problem. These sources would have to be verified for their trustworthiness and accuracy. We would also have to consider that the way we are collecting the data helps solve our problem while minimizing environmental noise or bias (like racial discrimination). There may also be government clearances or privacy concerns. If the data came from a variety of sources, then they would need to be converted to the same format and combined with the features properly matched. If this were a problem where we could collect more data, then we would have to consider if and when we would have enough to solve our problem. Additionally, if there was a lot of data, then we would need to consider where it's being stored (perhaps a relational database) and how to access and retrieve it. 
+
+## Data Exploration
+
+Below I'll plot a few of the visualizations created during the data exploration process.
+
+![Correlation Matrix](Visualizations/correlation_matrix.png)
+
+![Distributions](Visualizations/distributions.png)
+
+![Boxplot Embarked](Visualizations/boxplot_embarked.png)
+
+![Jointplot Age vs Fare](Visualizations/jointplot_age_fare.png)
