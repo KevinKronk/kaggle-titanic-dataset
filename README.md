@@ -47,3 +47,35 @@ The final plot I'll show here is a jointplot between Age and Fare. It's a great 
 
 ![Jointplot Age vs Fare](Visualizations/jointplot_age_fare.png)
 
+### Final Data Exploration Notes and Concerns
+    
+#### Survived
+A binary classification - with 0 being died, 1 being survived. This is our target variable. We will want to use classification algorithms that perform binary classification. The classes aren't too skewed. A model "cheating" by saying that everyone died would only have an accuracy of 549/891 = 0.616. 
+
+#### Pclass
+Ticket class - A proxy for socio-economic status: 1 - 1st, upper; 2 - 2nd, middle; 3 - 3rd, lower. This is an ordinal categorical variable meaning that the "distance" between each class is not the same. Therefore, it is wise to keep the numerical values. 
+
+#### Name
+Being a string object that isn't necessarily categorical, it will be difficult to collect information from.
+
+There does appear to be titles for each passenger, like Mr., Mrs., Master., and Miss. With some preprocessing we may be able to extract these out into a reasonably small number of binary variables. It's possible there's also a fame factor in who survived, but we would have to cross reference names in order to figure that out. 
+
+#### Sex
+Male or Female - A binary categorical variable. We will want to convert this to a numerical value, for instance male being 0, and female being 1. 
+
+#### Age
+In years, expressed as a fraction if less than 1, and when estimated it is in the form xx.5. Quite a wide variety, but since they appear to be reasonable they should work as numerical data. We will need to fill in missing values, however it's important to consider that a large chunk are missing. 
+
+#### SibSp 
+Number of siblings or spouses aboard the titanic. Siblings = brother, sister, stepbrother, stepsister. Spouse = husband, wife (mistresses and fiances were ignored). This is a discrete numerical value.
+    
+#### Parch
+Number of parents or children aboard the titanic. Parent = mother, father. Child = daughter, son, stepdaughter, stepson. Some children only travelled with a nanny, therefore parch=0 for them. So some people travelled together but weren't related. This is a discrete numerical value. 
+
+Both SibSp and Parch are heavily right skwewed with outliers. It seems reasonable to discretize them into groupings of 0, 1, and 2 or more. 
+
+#### Fare
+Passenger fare - A continuous numerical value. Possibly has some outliers that should be removed, or the whole feature should be discretized or transformed. 
+
+#### Embarked 
+Port of embarkation: C = Cherbourg, Q = Queenstown, S = Southampton. Has two missing values that will need to be handled. These are classes, therefore they will need to be one-hot encoded.
