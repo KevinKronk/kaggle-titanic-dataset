@@ -82,12 +82,14 @@ Port of embarkation: C = Cherbourg, Q = Queenstown, S = Southampton. Has two mis
 
 ## Data Processing
 
-![Name Titles](Visualizations/name_title.png)
+![Name Titles](Visualizations/name_titles.png)
 
 ![SibSp Binned](Visualizations/sibsp_binned.png)
 ![ParCh Binned](Visualizations/parch_binned.png)
+
 ![Relations](Visualizations/relations.png)
 
 ![Fare Capped](Visualizations/fare_capped.png)
 ![Fare Log Transformed](Visualizations/fare_log_transformed.png)
+
 ![Fare Boxplot](Visualizations/fare_boxplot.png)
