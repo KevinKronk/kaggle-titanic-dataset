@@ -79,3 +79,15 @@ Passenger fare - A continuous numerical value. Possibly has some outliers that s
 
 #### Embarked 
 Port of embarkation: C = Cherbourg, Q = Queenstown, S = Southampton. Has two missing values that will need to be handled. These are classes, therefore they will need to be one-hot encoded.
+
+## Data Processing
+
+![Name Titles](Visualizations/name_title.png)
+
+![SibSp Binned](Visualizations/sibsp_binned.png)
+![ParCh Binned](Visualizations/parch_binned.png)
+![Relations](Visualizations/relations.png)
+
+![Fare Capped](Visualizations/fare_capped.png)
+![Fare Log Transformed](Visualizations/fare_log_transformed.png)
+![Fare Boxplot](Visualizations/fare_boxplot.png)
