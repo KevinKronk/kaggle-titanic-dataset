@@ -85,24 +85,29 @@ Port of embarkation: C = Cherbourg, Q = Queenstown, S = Southampton. Has two mis
 As with Data Exploration, I'll walk through a few of the Data Processing steps here. 
 
 The first step was to extract the title from each passengers name using regular expressions. A column was created for title and the name column was removed. These titles were also compared to the mean probability of survival. 
+
 ![Name Titles](Visualizations/name_titles.png)
 
 
-After filling in missing values, the SibSp and Parch features were binned to include 0, 1, and 2+ people. 
+After filling in missing values, the SibSp and Parch features were binned to include 0, 1, and 2+ people.
+
 ![SibSp Binned](Visualizations/sibsp_binned.png)
 ![ParCh Binned](Visualizations/parch_binned.png)
 
 
 The relations feature was created by combining SibSp and Parch. This feature tells how many total relations a person had on board, including 0, 1, 2, 3, and 4+. It appears that people who traveled alone, or with too many relations, were less likely to survive. 
+
 ![Relations](Visualizations/relations.png)
 
 
 After encoding the categorical features, the fares feature needed to be transformed to help reduce outliers and create a more normal distribution. The data first had to have a minimum above 0 to work with a log transformation. Next, some of the outliers were capped in order to keep the information that they were expensive, but still work with the transformation. Finally, a log transformation was used on the distribution. 
+
 ![Fare Capped](Visualizations/fare_capped.png)
 ![Fare Log Transformed](Visualizations/fare_log_transformed.png)
 
 
 By looking at the boxplot we can see that there are no longer any outliers. 
+
 ![Fare Boxplot](Visualizations/fare_boxplot.png)
 
 
