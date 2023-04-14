@@ -112,3 +112,34 @@ By looking at the boxplot we can see that there are no longer any outliers.
 
 
 In the end, the features that correlated most with Survived were Pclass, Fare, Sex_female, Title_Miss, Title_Mr, and Title_Mrs. 
+
+## Model Selection
+
+This is a binary classification supervised learning problem with a small dataset. Additionally, we'd want to have some degree of explainability in our predictions given the goal of the project. Therefore, neural networks will likely not be ideal here. Given that the dataset is small, training should not take too long. Therefore, I will do a quick first pass for a variety of models, then choose from those which will receive hyperparameter tuning. 
+
+The models I will try are:
+- Logistic Regression
+- K Nearest Neighbors
+- Support Vector Classifier
+- Gaussian Naive Bayes
+- Linear Discriminant Analysis
+- Decision Tree
+- Random Forest
+- Gradient Boosted Classifier
+- AdaBoost
+- XGBoost
+
+After the models have been trained, it may be useful to combine the top performers in a voting classifier ensemble.
+
+## Training | Tuning | Metrics
+
+After training the models with cross validation in a quick first pass, these are the results: 
+
+![First Pass Training](Visualizations/first_pass_training.png)
+
+Based on these preliminary results and considering that our small dataset makes for quick training, I'll go 
+ahead and tune all of the models except Guassian Naive Bayes and the Decision Tree Classifier. The Decision Tree Classifier performed the worst and will be outperformed by the ensemble tree methods, so I can reasonably drop it. Gaussian Naive Bayes performed the second worst and doesn't have hyperparameters for grid search to tune, therefore it wont perform better. 
+
+Using an example from the scikit-learn website, https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html, I set up the function to plot the learning curve, n_samples vs fit_times, and fit_time vs score. 
+
+### Logistic Regression
