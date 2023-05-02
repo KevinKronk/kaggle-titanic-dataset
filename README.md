@@ -143,3 +143,13 @@ ahead and tune all of the models except Guassian Naive Bayes and the Decision Tr
 Using an example from the scikit-learn website, https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html, I set up the function to plot the learning curve, n_samples vs fit_times, and fit_time vs score. 
 
 ### Logistic Regression
+
+![Logistic Regression Fit](Visualizations/Logistic_Regression/LR_fit.png)
+
+![Logistic Regression Learning Curve](Visualizations/Logistic_Regression/LR_learning.png)
+
+![Logistic Regression ROC Curve](Visualizations/Logistic_Regression/LR_roc.png)
+
+![Logistic Regression Score](Visualizations/Logistic_Regression/LR_score.png)
+
+### K Neighbors Classifier
