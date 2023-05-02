@@ -153,3 +153,13 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![Logistic Regression Score](Visualizations/Logistic_Regression/LR_score.png)
 
 ### K Neighbors Classifier
+
+![K Neighbors Classifier Fit](Visualizations/K_Neighbors_Classifier/KN_fit.png)
+
+![K Neighbors Classifier Learning Curve](Visualizations/K_Neighbors_Classifier/KN_learning.png)
+
+![K Neighbors Classifier ROC Curve](Visualizations/K_Neighbors_Classifier/KN_roc.png)
+
+![K Neighbors Classifier Score](Visualizations/K_Neighbors_Classifier/KN_score.png)
+
+### Support Vector Classifier
