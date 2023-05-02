@@ -173,3 +173,13 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![Support Vector Classifier Score](Visualizations/Support_Vector_Classifier/SVC_score.png)
 
 ### Linear Discriminant Analysis
+
+![Linear Discriminant Analysis Fit](Visualizations/Linear_Discriminant_Analysis/LDA_fit.png)
+
+![Linear Discriminant Analysis Learning Curve](Visualizations/Linear_Discriminant_Analysis/LDA_learning.png)
+
+![Linear Discriminant Analysis ROC Curve](Visualizations/Linear_Discriminant_Analysis/LDA_roc.png)
+
+![Linear Discriminant Analysis Score](Visualizations/Linear_Discriminant_Analysis/LDA_score.png)
+
+### Random Forest Classifier
