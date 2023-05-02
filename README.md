@@ -163,3 +163,13 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![K Neighbors Classifier Score](Visualizations/K_Neighbors_Classifier/KN_score.png)
 
 ### Support Vector Classifier
+
+![Support Vector Classifier Fit](Visualizations/Support_Vector_Classifier/SVC_fit.png)
+
+![Support Vector Classifier Learning Curve](Visualizations/Support_Vector_Classifier/SVC_learning.png)
+
+![Support Vector Classifier ROC Curve](Visualizations/Support_Vector_Classifier/SVC_roc.png)
+
+![Support Vector Classifier Score](Visualizations/Support_Vector_Classifier/SVC_score.png)
+
+### Linear Discriminant Analysis
