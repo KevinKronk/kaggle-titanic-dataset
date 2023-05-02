@@ -183,3 +183,15 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![Linear Discriminant Analysis Score](Visualizations/Linear_Discriminant_Analysis/LDA_score.png)
 
 ### Random Forest Classifier
+
+![Random Forest Classifier Fit](Visualizations/Random_Forest_Classifier/RFC_fit.png)
+
+![Random Forest Classifier Learning Curve](Visualizations/Random_Forest_Classifier/RFC_learning.png)
+
+![Random Forest Classifier ROC Curve](Visualizations/Random_Forest_Classifier/RFC_roc.png)
+
+![Random Forest Classifier Score](Visualizations/Random_Forest_Classifier/RFC_score.png)
+
+![Random Forest Classifier Feature Importance](Visualizations/Random_Forest_Classifier/RFC_features.png)
+
+### Gradient Boosting Classifier
