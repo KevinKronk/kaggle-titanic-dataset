@@ -4,7 +4,7 @@ Titanic - Machine Learning from Disaster - Kaggle Competiton
 
 https://www.kaggle.com/c/titanic/overview
 
-I run through the entire machine learning project structure on the Titanic dataset in the Jupyter Notebook. 
+I run through the entire machine learning project structure on the Titanic dataset in the Jupyter Notebook [(titanic-kaggle-dataset.ipynb)](titanic-kaggle-dataset.ipynb). 
 
 ![image](https://user-images.githubusercontent.com/41022783/117377329-057d5680-aea1-11eb-908e-905342c0073e.png)
 
