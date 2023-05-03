@@ -207,3 +207,15 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![Gradient Boosting Classifier Feature Importance](Visualizations/Gradient_Boosting_Classifier/GBC_features.png)
 
 ### AdaBoost Classifier
+
+![AdaBoost Classifier Fit](Visualizations/AdaBoost_Classifier/ABC_fit.png)
+
+![AdaBoost Classifier Learning Curve](Visualizations/AdaBoost_Classifier/ABC_learning.png)
+
+![AdaBoost Classifier ROC Curve](Visualizations/AdaBoost_Classifier/ABC_roc.png)
+
+![AdaBoost Classifier Score](Visualizations/AdaBoost_Classifier/ABC_score.png)
+
+![AdaBoost Classifier Feature Importance](Visualizations/AdaBoost_Classifier/ABC_features.png)
+
+### XGBoost Classifier
