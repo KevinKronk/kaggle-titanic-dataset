@@ -1,4 +1,4 @@
-# kaggle-titanic-dataset
+# Titanic Dataset Kaggle Competition
 
 Titanic - Machine Learning from Disaster - Kaggle Competiton 
 
