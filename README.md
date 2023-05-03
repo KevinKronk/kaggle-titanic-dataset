@@ -26,6 +26,21 @@ If we didn't have the data, then we would have to get it from the logs of the sh
 
 ## Data Exploration
 
+### Immediate Notes and Concerns
+
+#### Passenger ID
+A unique identifier for each passenger. Therefore, it won't provide any additional information and can be removed. 
+    
+#### Ticket 
+Ticket number (and letters). Some tickets have multiple passengers. This is a string object that is technically categorical. However, there are far too many classes with only one value each which wouldn't provide much information. Additionally, these classes can't easily be represented as numerical data since they are not quite nominal or ordinal. Therefore, it makes sense to drop this feature. 
+    
+#### Cabin
+Cabin number - some cabins have multiple passengers. As said above, this feature has too many missing values in order to be useful. We wouldn't be able to make reasonable assumptions about which passengers would be in which cabin number. 
+
+A more interesting feature might be: distance of room from the bow of the ship, or distance of room from lifeboat.
+
+### Data Visualizations
+
 Below I'll plot a few of the visualizations created during the data exploration process.
 
 The first is a pairplot, which allows for a quick comparison between all of the numerical features. This also gives a quick histogram for each feature along the diagonal.
