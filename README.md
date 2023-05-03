@@ -231,3 +231,8 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![XGBoost Classifier Feature Importance](Visualizations/XGBoost_Classifier/XGBC_features.png)
 
 ### Voting Classifier
+
+![Voting Classifier Score](Visualizations/Voting_Classifier/VC_score.png)
+
+
+## Conclusions
