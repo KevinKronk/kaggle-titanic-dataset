@@ -149,6 +149,7 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![Logistic Regression Learning Curve](Visualizations/Logistic_Regression/LR_learning.png)
 
 ![Logistic Regression ROC Curve](Visualizations/Logistic_Regression/LR_roc.png)
+
 ![Logistic Regression Score](Visualizations/Logistic_Regression/LR_score.png)
 
 ### K Neighbors Classifier
@@ -158,6 +159,7 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![K Neighbors Classifier Learning Curve](Visualizations/K_Neighbors_Classifier/KN_learning.png)
 
 ![K Neighbors Classifier ROC Curve](Visualizations/K_Neighbors_Classifier/KN_roc.png)
+
 ![K Neighbors Classifier Score](Visualizations/K_Neighbors_Classifier/KN_score.png)
 
 ### Support Vector Classifier
@@ -167,6 +169,7 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![Support Vector Classifier Learning Curve](Visualizations/Support_Vector_Classifier/SVC_learning.png)
 
 ![Support Vector Classifier ROC Curve](Visualizations/Support_Vector_Classifier/SVC_roc.png)
+
 ![Support Vector Classifier Score](Visualizations/Support_Vector_Classifier/SVC_score.png)
 
 ### Linear Discriminant Analysis
@@ -176,6 +179,7 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![Linear Discriminant Analysis Learning Curve](Visualizations/Linear_Discriminant_Analysis/LDA_learning.png)
 
 ![Linear Discriminant Analysis ROC Curve](Visualizations/Linear_Discriminant_Analysis/LDA_roc.png)
+
 ![Linear Discriminant Analysis Score](Visualizations/Linear_Discriminant_Analysis/LDA_score.png)
 
 ### Random Forest Classifier
@@ -185,6 +189,7 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![Random Forest Classifier Learning Curve](Visualizations/Random_Forest_Classifier/RFC_learning.png)
 
 ![Random Forest Classifier ROC Curve](Visualizations/Random_Forest_Classifier/RFC_roc.png)
+
 ![Random Forest Classifier Score](Visualizations/Random_Forest_Classifier/RFC_score.png)
 
 ![Random Forest Classifier Feature Importance](Visualizations/Random_Forest_Classifier/RFC_features.png)
@@ -196,6 +201,7 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![Gradient Boosting Classifier Learning Curve](Visualizations/Gradient_Boosting_Classifier/GBC_learning.png)
 
 ![Gradient Boosting Classifier ROC Curve](Visualizations/Gradient_Boosting_Classifier/GBC_roc.png)
+
 ![Gradient Boosting Classifier Score](Visualizations/Gradient_Boosting_Classifier/GBC_score.png)
 
 ![Gradient Boosting Classifier Feature Importance](Visualizations/Gradient_Boosting_Classifier/GBC_features.png)
@@ -207,6 +213,7 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![AdaBoost Classifier Learning Curve](Visualizations/AdaBoost_Classifier/ABC_learning.png)
 
 ![AdaBoost Classifier ROC Curve](Visualizations/AdaBoost_Classifier/ABC_roc.png)
+
 ![AdaBoost Classifier Score](Visualizations/AdaBoost_Classifier/ABC_score.png)
 
 ![AdaBoost Classifier Feature Importance](Visualizations/AdaBoost_Classifier/ABC_features.png)
@@ -218,6 +225,7 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![XGBoost Classifier Learning Curve](Visualizations/XGBoost_Classifier/XGBC_learning.png)
 
 ![XGBoost Classifier ROC Curve](Visualizations/XGBoost_Classifier/XGBC_roc.png)
+
 ![XGBoost Classifier Score](Visualizations/XGBoost_Classifier/XGBC_score.png)
 
 ![XGBoost Classifier Feature Importance](Visualizations/XGBoost_Classifier/XGBC_features.png)
