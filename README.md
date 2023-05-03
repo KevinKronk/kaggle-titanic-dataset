@@ -219,3 +219,15 @@ Using an example from the scikit-learn website, https://scikit-learn.org/stable/
 ![AdaBoost Classifier Feature Importance](Visualizations/AdaBoost_Classifier/ABC_features.png)
 
 ### XGBoost Classifier
+
+![XGBoost Classifier Fit](Visualizations/XGBoost_Classifier/XGBC_fit.png)
+
+![XGBoost Classifier Learning Curve](Visualizations/XGBoost_Classifier/XGBC_learning.png)
+
+![XGBoost Classifier ROC Curve](Visualizations/XGBoost_Classifier/XGBC_roc.png)
+
+![XGBoost Classifier Score](Visualizations/XGBoost_Classifier/XGBC_score.png)
+
+![XGBoost Classifier Feature Importance](Visualizations/XGBoost_Classifier/XGBC_features.png)
+
+### Voting Classifier
